@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 ferry
+Copyright (c) 2025 Ferry Bodijn and Duck-IT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Note: This container bundles the Sonatype Nexus DB Migrator and the H2 database
+JAR, both of which are licensed separately by their respective owners.
+This project does not modify or redistribute those components outside of
+referencing official public binaries. For actual use, you are responsible for
+complying with their respective licenses:
+
+- [Sonatype EULA](https://www.sonatype.com/legal/terms-of-service)
+- [H2 License (MPL 2.0 or EPL 1.0)](https://h2database.com/html/license.html)
